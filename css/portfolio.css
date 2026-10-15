@@ -19,10 +19,7 @@
   background-color: var(--color-white);
 }
 
-.portfolio-image {
-  display: block;
-  max-width: 100%;
-}
+
 
 .portfolio-item-title {
   color: var(--color-heading);
