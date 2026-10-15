@@ -1,0 +1,33 @@
+.hero {
+  background-color: rgba(46, 47, 66, 1);
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  margin: 0 auto;
+  max-width: 496px;
+}
+
+.hero .button {
+  text-align: left;
+}
+
+.hero button {
+  cursor: pointer;
+  background-color: #4d5ae5;
+color: #ffffff;
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+border: none;
+
+}

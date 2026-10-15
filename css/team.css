@@ -1,0 +1,13 @@
+.team{
+
+    background-color: rgba(244, 244, 253, 1);
+}
+.team li{
+    background-color: #ffff;
+   
+}
+.team p,
+.team h2,
+.team h3 {
+text-align: center;
+}
