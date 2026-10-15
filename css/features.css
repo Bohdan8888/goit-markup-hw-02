@@ -1,15 +1,23 @@
-.features-title {
+.features {
+  background-color: var(--color-white);
+}
+
+.features-list {
+  list-style: none;
+}
+
+.feature-title {
+  color: var(--color-heading);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
-.features-text {
+.feature-text {
+  color: var(--color-text);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }

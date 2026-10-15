@@ -1,40 +1,41 @@
+.portfolio {
+  background-color: var(--color-white);
+}
 
 .portfolio-title {
+  color: var(--color-heading);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
   text-align: center;
 }
 
+.portfolio-list {
+  list-style: none;
+}
+
 .portfolio-card {
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 
 .portfolio-image {
   display: block;
-  width: 360px;
-  height: 300px;
-  object-fit: cover;
+  max-width: 100%;
 }
 
-.portfolio-card-content {
-  background-color: #ffffff;
-}
-
-.portfolio-name {
-  font-size: 20px;
+.portfolio-item-title {
+  color: var(--color-heading);
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
-.portfolio-category {
-  font-size: 16px;
+.portfolio-item-text {
+  color: var(--color-text);
   font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
